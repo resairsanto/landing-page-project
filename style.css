@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #1F2937;
+    color: white;
+    padding: 10px 150px;
+    margin-left: -35px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navigation {
+    font-size: 19px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    background: #1F2937;
+    color: white;
+    padding: 50px 150px;
+    padding-bottom: 100px;
+}
+
+.first-button {
+    background-color: #2882F6;
+    color: white;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+}
+
+.left-content {
+    display: flex;
+    width: 350px;
+    flex-wrap: wrap;
+}
+
+.this-website {
+    margin-bottom: 0;
+    font-weight: 1000;
+    font-size: 35px;
+}
+
+.navigation, ul {
+    display: flex;
+    gap: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #2882F6;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.square-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.second-content {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2947;
+    padding: 40px 250px;
+    margin-top: 100px;
+}
+
+.person {
+    font-size: 25px;
+    text-align: right;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    background-color: #3882F6;
+    margin: 100px 100px;
+    border-radius: 7px;
+    padding: 30px 100px;
+}
+
+.first {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.second-button {
+    background-color: #2882F6;
+    color: white;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 7px;
+    border-color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: white;
+}
+
+img {
+    width: 500px;
+    height: 250px;
+}
