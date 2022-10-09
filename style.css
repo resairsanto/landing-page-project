@@ -1,6 +1,6 @@
-html {
+* {
     margin: 0;
-    min-height: 100%;
+    padding: 0;
 }
 
 body {
@@ -13,13 +13,12 @@ body {
     justify-content: space-between;
     background: #1F2937;
     color: white;
-    padding: 10px 150px;
-    margin-left: -35px;
+    padding: 20px 170px;
 }
 
 .logo {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 1000;
 }
 
 .navigation {
@@ -29,10 +28,17 @@ body {
 .header-content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background: #1F2937;
     color: white;
-    padding: 50px 150px;
+    padding: 50px 170px;
     padding-bottom: 100px;
+}
+
+.description {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
 }
 
 .first-button {
@@ -52,9 +58,10 @@ body {
 }
 
 .this-website {
-    margin-bottom: 0;
+    margin-bottom: 10px;
     font-weight: 1000;
-    font-size: 35px;
+    font-size: 48px;
+    color: #F9FAF8;
 }
 
 .navigation, ul {
@@ -72,6 +79,7 @@ ul {
     border-radius: 15px;
     border-style: solid;
     border-color: #2882F6;
+    margin-bottom: 20px;
 }
 
 .content {
@@ -82,8 +90,10 @@ ul {
 
 .title {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .square-content {
@@ -95,17 +105,20 @@ ul {
     text-align: center;
 }
 
-.second-content {
+.quote {
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
-    font-size: 36px;
+    font-size: 38px;
     font-style: italic;
     color: #1F2947;
-    padding: 40px 250px;
+    padding: 50px 250px;
     margin-top: 100px;
 }
 
 .person {
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: bold;
     text-align: right;
 }
 
